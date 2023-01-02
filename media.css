@@ -1,0 +1,60 @@
+@media(min-width:600px) {
+    .cards {
+        grid-template-columns: repeat(2fr);
+        grid-template-rows: repeat(2fr);
+        grid-template-areas:
+            "title title"
+            "card-1 card-2"
+            "card-3 card-4"
+        ;
+    }
+}
+
+@media(min-width:1460px) {
+    h1 {
+        font-size: 72px;
+    }
+
+    .text {
+        position: absolute;
+        top: 30%;
+        left: 8%;
+        transform: translateY(-50);
+
+    }
+
+    .icons {
+        position: absolute;
+        top: 50%;
+        left: 8%;
+        transform: translateY(-50);
+
+    }
+
+    #img-perfil {
+        height: 350px;
+        border-radius: 50%;
+    }
+
+    .Perfil {
+        position: absolute;
+        top: 28%;
+        right: 15%;
+        transform: translateY(-50);
+    }
+
+    .sobre-mim {
+        padding: 500px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(4fr);
+        grid-template-rows: repeat(1fr);
+        grid-template-areas:
+            "title title title title"
+            "card-1 card-2 card-3 card-4"
+
+        ;
+    }
+
+}
