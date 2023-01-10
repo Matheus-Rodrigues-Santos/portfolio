@@ -31,6 +31,11 @@ h2 {
     text-align: center;
 }
 
+h3{
+    font-size: 28px;
+    text-shadow: 1px 0 0 ;
+}
+
 h4 {
     letter-spacing: 2px;
     font-size: 20px;
@@ -42,7 +47,7 @@ p {
     line-height: 1.5;
     text-align: center;
     font-size: 24px;
-    text-transform: capitalize;
+  
 }
 
 nav {
@@ -163,12 +168,19 @@ nav ul li a:focus {
 
 
 .card {
+    background-color: #9ad3b2;
     display: flex;
     position: relative;
     width: 280px;
     height: 380px;
     margin: 30px;
     border-radius: 20px;
+}
+.card p {
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    text-shadow: 1px 0 0 ;
 }
 .card img{
     display: flex;
